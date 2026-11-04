@@ -14,11 +14,26 @@
 - [References](#-references)
 
 # 🎯 Overview
-Educational research often uses **pre- and posttest design** to measure how well a new curriculum meets specific learning goals. By testing participants before and after instruction, researchers can determine how much knowledge was gained and evaluate both the efficacy of curriculum and instructional practices. This design is considered one of the best ways to assess the overall impact and quality of a curriculum.
 
-This guide measures the impact of four digital citizenship lessons within Campus Connections, a 12-week mentoring program that paired youth (ages 12–14) with undergraduate student mentors. The digital citizenship lessons included: (1) digital wellness, (2) digital accessibility, (3) securing devices, and (4) digital footprint. In addition to knowledge-based surveys, students also completed the Developmental Assets Profile (DAP) regarding their academic, social, emotional, and psychological wellness. The DAP was completed before the start of programming and again at the end.  
+Educational research often uses a pre- and posttest design to measure how well a new curriculum meets specific learning goals. By testing participants before and after instruction, researchers can determine how much knowledge was gained and evaluate the efficacy of both the curriculum and instructional practices. This is a common way to assess the overall impact of a curriculum (Cooksey & Johnson, 2022).
 
-This tutorial serves as an introduction to performing t-tests to compare two groups in R. You will need the `readr`, `psych`, and `ggplot2` packages.
+This guide measures the impact of four digital citizenship lessons within **Campus Connections**, a 12-week mentoring program that paired youth (ages 12-14) with undergraduate student mentors. The lessons covered:
+
+1. 🧘 Digital wellness
+2. ♿ Digital accessibility
+3. 🔒 Securing devices
+4. 👣 Digital footprint
+
+In addition to knowledge-based surveys, students completed the **Developmental Assets Profile (DAP)** regarding their academic, social, emotional, and psychological wellness. The DAP was completed before the start of programming and again at the end.
+
+This tutorial is an introduction to running paired-sample t-tests in R to compare pre- and posttest scores. You will need the `readr`, `psych`, and `ggplot2` packages.
+
+```r
+install.packages(c("readr", "psych", "ggplot2"))
+library(readr)
+library(psych)
+library(ggplot2)
+```
 
 # 1. Evaluating Learning Changes with Paired-sample t-tests 
 In order to determine whether participants (n = 8) made significant learning gains, this study used a t-test to determine whether differences between the pre- and posttests were significant. Specifically, when using the paired-sample t-test the researcher calculates the mean percentages of responses on the pretest and posttest. A significant difference implies effective curriculum, while a less-than-significant difference indicates that the participants did not experience a significant change in learning, which may be attributed to a variety of factors. 
