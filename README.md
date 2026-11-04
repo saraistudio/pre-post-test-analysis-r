@@ -4,7 +4,6 @@
 ## 📖 Table of Contents
 
 - [Overview](#-overview)
-- [Background](#-background)
 - [The Data](#-the-data)
 - [Hypotheses](#-hypotheses)
 - [Analysis & Results](#-analysis--results)
@@ -27,6 +26,19 @@ This guide measures the impact of four digital citizenship lessons within Campus
 In addition to knowledge-based surveys, students completed the **Developmental Assets Profile (DAP)** regarding their academic, social, emotional, and psychological wellness. The DAP was completed before the start of programming and again at the end.
 
 This tutorial is an introduction to running paired-sample t-tests in R to compare pre- and posttest scores. The dataset has only **eight participants**, but every response is complete, which makes it a great set for practicing these analyses. You will need the `readr`, `psych`, and `ggplot2` packages.
+
+## 🗂️ The Data
+
+`DigitalCitizenship.csv` contains responses from 8 youth (ages 12-14) in a university-based mentoring program in the Rocky Mountain region of the U.S. in 2021.
+
+| Column | Description |
+|---|---|
+| `ID` | Anonymous participant ID |
+| `Age` | Participant age |
+| `preDAP` | DAP score at intake (before programming) |
+| `postDAP` | DAP score in the final week of programming |
+
+The DAP items use a 4-point scale: Not at all or rarely (0), Somewhat or sometimes (1), Very or often (2), Extremely or almost always (3). All 8 participants completed both the pre- and posttest.
 
 # 1. Evaluating Learning Changes with Paired-sample t-tests 
 In order to determine whether participants (n = 8) made significant learning gains, this study used a t-test to determine whether differences between the pre- and posttests were significant. Specifically, when using the paired-sample t-test the researcher calculates the mean percentages of responses on the pretest and posttest. A significant difference implies effective curriculum, while a less-than-significant difference indicates that the participants did not experience a significant change in learning, which may be attributed to a variety of factors. 
