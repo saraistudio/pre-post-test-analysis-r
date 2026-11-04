@@ -13,7 +13,7 @@
 - [Getting Started](#-getting-started)
 - [References](#-references)
 
-# 🎯 Overview
+## 🎯 Overview
 
 Educational research often uses a **pre- and posttest design** to measure how well a new curriculum meets specific learning goals. By testing participants before and after instruction, researchers can determine how much knowledge was gained and evaluate the efficacy of both the curriculum and instructional practices. This is a common way to assess the overall impact of a curriculum.
 
@@ -27,6 +27,14 @@ This guide measures the impact of four digital citizenship lessons within Campus
 In addition to knowledge-based surveys, students completed the **Developmental Assets Profile (DAP)** regarding their academic, social, emotional, and psychological wellness. The DAP was completed before the start of programming and again at the end.
 
 This tutorial is an introduction to running paired-sample t-tests in R to compare pre- and posttest scores. The dataset has only **eight participants**, but every response is complete, which makes it a great set for practicing these analyses. You will need the `readr`, `psych`, and `ggplot2` packages.
+
+## 🧠 Background
+
+### 🔁 Pretest-Posttest Design
+
+Pretest-posttest design is common in educational research, especially when assessing how well a new curriculum supports specific learning outcomes (Shek & Zhu, 2018). Asking participants about new knowledge shows how well materials cover key information and how well the instructor conveys it. The design is most effective for assessing the efficacy and comprehensiveness of curriculum (Cooksey & Johnson, 2022).
+
+Pre- and posttests contain **identical learning objectives**, with Likert-scale response options. Participants rate their understanding of each objective at the start and end of the lesson. The scale is adapted to the participant's developmental level and may include a numeric component.
 
 # 1. Evaluating Learning Changes with Paired-sample t-tests 
 In order to determine whether participants (n = 8) made significant learning gains, this study used a t-test to determine whether differences between the pre- and posttests were significant. Specifically, when using the paired-sample t-test the researcher calculates the mean percentages of responses on the pretest and posttest. A significant difference implies effective curriculum, while a less-than-significant difference indicates that the participants did not experience a significant change in learning, which may be attributed to a variety of factors. 
