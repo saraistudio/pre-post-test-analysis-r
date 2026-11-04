@@ -29,7 +29,7 @@ This tutorial is an introduction to running paired-sample t-tests in R to compar
 
 ## 🗂️ The Data
 
-`DigitalCitizenship.csv` contains responses from 8 youth (ages 12-14) in a university-based mentoring program in the Rocky Mountain region of the U.S. in 2021.
+`DigitalCitizenship.csv` contains responses from 8 youth (ages 12-14) in a university-based mentoring program in the U.S. in 2021.
 
 | Column | Description |
 |---|---|
