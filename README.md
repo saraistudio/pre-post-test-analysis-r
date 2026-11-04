@@ -1,5 +1,6 @@
 # 📈 Assessing Learning with Pre- and Posttests in R
 > A guide to evaluating learning gains with a pretest-posttest design and paired-sample t-tests, using data from a youth mentoring program. 🎓
+![R](https://img.shields.io/badge/language-R-276DC3?logo=r&logoColor=white) ![Analysis](https://img.shields.io/badge/analysis-paired%20t--test-blue) ![Sample](https://img.shields.io/badge/n-8-orange) ![Cost](https://img.shields.io/badge/cost-free-brightgreen)
 # Introduction 
 Educational research often uses pre- and posttest design to measure how well a new curriculum meets specific learning goals. By testing participants before and after instruction, researchers can determine how much knowledge was gained and evaluate both the efficacy of curriculum and instructional practices. This design is considered one of the best ways to assess the overall impact and quality of a curriculum.
 
