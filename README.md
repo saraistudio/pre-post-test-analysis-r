@@ -1,7 +1,19 @@
 # 📈 Assessing Learning with Pre- and Posttests in R
 > A guide to evaluating learning gains with a pretest-posttest design and paired-sample t-tests, using data from a youth mentoring program. 🎓
-![R](https://img.shields.io/badge/language-R-276DC3?logo=r&logoColor=white) ![Analysis](https://img.shields.io/badge/analysis-paired%20t--test-blue) ![Sample](https://img.shields.io/badge/n-8-orange) ![Cost](https://img.shields.io/badge/cost-free-brightgreen)
-# Introduction 
+![R](https://img.shields.io/badge/language-R-276DC3?logo=r&logoColor=white) ![Analysis](https://img.shields.io/badge/analysis-paired%20t--test-blue) ![Sample](https://img.shields.io/badge/n-8-orange)
+## 📖 Table of Contents
+
+- [Overview](#-overview)
+- [Background](#-background)
+- [The Data](#-the-data)
+- [Hypotheses](#-hypotheses)
+- [Analysis & Results](#-analysis--results)
+- [Ethics & Privacy](#️-ethics--privacy)
+- [Lessons Learned](#-lessons-learned)
+- [Getting Started](#-getting-started)
+- [References](#-references)
+
+# 🎯 Overview
 Educational research often uses pre- and posttest design to measure how well a new curriculum meets specific learning goals. By testing participants before and after instruction, researchers can determine how much knowledge was gained and evaluate both the efficacy of curriculum and instructional practices. This design is considered one of the best ways to assess the overall impact and quality of a curriculum.
 
 This guide measures the impact of four digital citizenship lessons within Campus Connections, a 12-week mentoring program that paired youth (ages 12–14) with undergraduate student mentors. The digital citizenship lessons included: (1) digital wellness, (2) digital accessibility, (3) securing devices, and (4) digital footprint. In addition to knowledge-based surveys, students also completed the Developmental Assets Profile (DAP) regarding their academic, social, emotional, and psychological wellness. The DAP was completed before the start of programming and again at the end.  
