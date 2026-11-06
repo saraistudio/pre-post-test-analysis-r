@@ -64,6 +64,12 @@ The t-test (Step 7) and Cohen's d (Step 8) are in [`analysis.R`](analysis.R). In
 
 Posttest scores show less spread than pretest scores.
 
+### Individual Change
+
+![Slope plot of PreDAP and PostDAP scores for 8 participants; four increased and four decreased](images/dap-slopeplot.png)
+
+Each line connects one participant's pre- and post-program DAP scores. Participants 1, 4, 5, and 6 increased, while Participants 2, 3, 7, and 8 decreased. Participants with the lowest pre-DAP scores tended to gain the most, while those with the highest tended to drop. Participants 3, 4, and 5 had nearly identical posttest scores (about 2.3), so their dots overlap.
+
 
 In this dot plot, we can see that the postDAP scores show less variation than preDAP scores. While most participants improved, participants **Y000084** and **Y000043** saw decreases. Notably, a high-scoring outlier in the pre-DAP data (**Y000059**) disappeared in the post-test. ![A dot plot showing pre and postDAP scores](https://github.com/user-attachments/assets/75c63f27-3e0d-489a-b935-cea256356c23)
 
