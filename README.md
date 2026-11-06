@@ -18,7 +18,7 @@
 
 Educational research often uses a **pre- and posttest design** to measure how well a new curriculum meets specific learning goals. By testing participants before and after instruction, researchers can determine how much knowledge was gained and evaluate the efficacy of both the curriculum and instructional practices. This is a common way to assess the overall impact of a curriculum.
 
-This guide measures the impact of four digital citizenship lessons within Campus Connections, a 12-week  therapeutic mentoring program that paired youth (ages 12-14) with undergraduate student mentors. The lessons covered:
+This guide measures the impact of four digital citizenship lessons within Campus Connections, a 12-week  therapeutic mentoring program that paired youth (ages 12-14) with university students. The lessons covered:
 
 1. 🧘 Digital wellness
 2. ♿ Digital accessibility
