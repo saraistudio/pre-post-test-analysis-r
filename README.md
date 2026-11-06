@@ -1,5 +1,5 @@
 # 📈 Assessing Learning with Pre- and Posttests in R
-![R](https://img.shields.io/badge/language-R-276DC3?logo=r&logoColor=white) 
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
 ![Analysis](https://img.shields.io/badge/analysis-paired%20t--test-blue) 
 ![Sample](https://img.shields.io/badge/n-8-orange)
 > A guide to evaluating learning gains with a pretest-posttest design and paired-sample t-tests, using data from a youth mentoring program. 🎓
