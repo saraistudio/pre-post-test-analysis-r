@@ -27,7 +27,7 @@ This guide measures the impact of four digital citizenship lessons within Campus
 
 In addition to knowledge-based surveys, students completed the **Developmental Assets Profile (DAP)** regarding their academic, social, emotional, and psychological wellness. The DAP was completed before the start of programming and again at the end.
 
-This tutorial is an introduction to running paired-sample t-tests in R to compare pre- and posttest scores. The dataset has only **eight participants**, but every response is complete, which makes it a great set for practicing these analyses. You will need the 'readr', 'psych', 'ggplot2', "ggrepel", "tidyr", and "effsize" packages.
+This tutorial is an introduction to running paired-sample t-tests in R to compare pre- and posttest scores. The dataset has only **eight participants**, but every response is complete, which makes it a great set for practicing these analyses. You will need the `readr`, `psych`, `effsize`, and `ggplot2` packages.
 
 ## 🗂️ The Data
 
