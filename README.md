@@ -18,14 +18,9 @@
 
 Educational research often uses a **pre- and posttest design** to measure how well a new curriculum meets specific learning goals. By testing participants before and after instruction, researchers can determine how much knowledge was gained and evaluate the efficacy of both the curriculum and instructional practices. This is a common way to assess the overall impact of a curriculum.
 
-This guide measures the impact of four digital citizenship lessons within Campus Connections, a 12-week  therapeutic mentoring program that paired youth (ages 12-14) with university students. The lessons covered:
+This guide measures the impact of four digital citizenship lessons within Campus Connections, a 12-week  therapeutic mentoring program that paired youth (ages 12-14) with university students. The lessons covered 1) Digital wellness, 2) Digital accessibility, 3) Securing devices, and 4) Digital footprint.
 
-1. 🧘 Digital wellness
-2. ♿ Digital accessibility
-3. 🔒 Securing devices
-4. 👣 Digital footprint
-
-In addition to knowledge-based surveys, students completed the **Developmental Assets Profile (DAP)** regarding their academic, social, emotional, and psychological wellness. The DAP was completed before the start of programming and again at the end.
+Students completed the **Developmental Assets Profile (DAP)** regarding their academic, social, emotional, and psychological wellness. The DAP was completed before the start of programming and again at the end.
 
 This is an introduction to running paired-sample t-tests in R to compare pre- and posttest scores. The dataset has only **eight participants**, but every response is complete, which makes it a great set for practicing these analyses. You will need the `readr`, `psych`, `effsize`, and `ggplot2` packages.
 
