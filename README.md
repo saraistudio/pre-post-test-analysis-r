@@ -42,50 +42,15 @@ This tutorial is an introduction to running paired-sample t-tests in R to compar
 
 The DAP items use a 4-point scale: Not at all or rarely (0), Somewhat or sometimes (1), Very or often (2), Extremely or almost always (3). 
 
-# 1. Evaluating Learning Changes with Paired-sample t-tests 
-In order to determine whether participants (n = 8) made significant learning gains, this study used a t-test to determine whether differences between the pre- and posttests were significant. Specifically, when using the paired-sample t-test the researcher calculates the mean percentages of responses on the pretest and posttest. A significant difference implies effective curriculum, while a less-than-significant difference indicates that the participants did not experience a significant change in learning, which may be attributed to a variety of factors. 
+## 🧪 Evaluating Learning Changes with Paired-Sample t-Tests
 
-```
-library(readr) # find, import, and read data
-library(psych) # descriptive statistics
-library(ggplot2) # plotting
-library(ggrepel) # repel overlapping plot labels
+In order to determine whether participants (n = 8) made significant learning gains, this study used a t-test to determine whether differences between the pre- and posttests were significant. Specifically, when using the paired-sample t-test the researcher calculates the mean percentages of responses on the pretest and posttest. A significant difference implies effective curriculum, while a less-than-significant difference indicates that the participants did not experience a significant change in learning, which may be due to a variety of factors. 
 
-DigitalCitizenship <- read_csv("DigitalCitizenship.csv")
-View(DigitalCitizenship)
 
-min(DigitalCitizenship$preDAP)
-max(DigitalCitizenship$preDAP)
-mean(DigitalCitizenship$preDAP)
-describe(DigitalCitizenship$preDAP) 
 
-min(DigitalCitizenship$postDAP)
-max(DigitalCitizenship$postDAP)
-mean(DigitalCitizenship$postDAP)
-describe(DigitalCitizenship$postDAP)
+Because pre is listed first, an increase in scores appears as a negative t and a negative d. Cohen's d benchmarks (Lakens, 2013): small = 0.2, medium = 0.5, large = 0.8.
 
-df_long <- data.frame(
-  ID = rep(DigitalCitizenship$ID, 2),
-  value = c(DigitalCitizenship$preDAP, DigitalCitizenship$postDAP),
-  time = rep(c("PreDAP", "PostDAP"), each = nrow(DigitalCitizenship))
-)
-df_long$time <- factor(df_long$time, levels = c("PreDAP", "PostDAP"))
-ggplot(df_long, aes(x = time, y = value, fill = time)) +
-  geom_dotplot(binaxis = 'y', stackdir = 'center', dotsize = 1.2) + 
-  geom_text_repel(aes(label = ID), 
-            max.overlaps = Inf, 
-            box.padding = 0.5, 
-            point.padding = 0.5, 
-            size = 3 
-            )+
-  labs(
-    title = "PreDAP vs PostDAP Scores",
-    x = NULL,
-    y = "DAP Score"
-  ) +
-  scale_fill_manual(values = c("#E60023", "#45A3FE")) +
-  theme_minimal()  
-```
+
 In this dot plot, we can see that the postDAP scores show less variation than preDAP scores. While most participants improved, participants **Y000084** and **Y000043** saw decreases. Notably, a high-scoring outlier in the pre-DAP data (**Y000059**) disappeared in the post-test. ![A dot plot showing pre and postDAP scores](https://github.com/user-attachments/assets/75c63f27-3e0d-489a-b935-cea256356c23)
 
 
