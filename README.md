@@ -18,9 +18,11 @@
 
 Educational research often uses a **pre- and posttest design** to measure how well a new curriculum meets specific learning goals. By testing participants before and after instruction, researchers can determine how much knowledge was gained and evaluate the efficacy of both the curriculum and instructional practices. This is a common way to assess the overall impact of a curriculum.
 
-This guide uses data from Campus Connections, a 12-week mentoring program that paired youth (ages 12–14) with undergraduate student mentors and included four digital citizenship lessons: (1) digital wellness, (2) digital accessibility, (3) securing devices, and (4) digital footprint. Students completed the **Developmental Assets Profile (DAP)** regarding their academic, social, emotional, and psychological wellness. The DAP was completed before the start of programming and again at the end.
+This guide uses data from Campus Connections, a 12-week mentoring program that paired youth (ages 12–14) with undergraduate student mentors and included four digital citizenship lessons: (1) digital wellness, (2) digital accessibility, (3) securing devices, and (4) digital footprint. Students completed the Developmental Assets Profile (DAP) regarding their academic, social, emotional, and psychological wellness. The DAP was completed before the start of programming and again at the end.
 
-This is an introduction to running paired-sample t-tests in R to compare pre- and posttest scores. The dataset has only **eight participants**, but every response is complete, which makes it a great set for practicing these analyses. You will need the `readr`, `psych`, `effsize`, and `ggplot2` packages.
+The analysis tests whether DAP scores changed over the course of the program. It does **not** measure learning from the individual lessons, and with no comparison group it cannot show that the program caused any change. The dataset is used here as a example to running paired-sample t-tests in R to compare pre- and posttest scores.
+
+The dataset has only **eight participants**, but every response is complete, which makes it a great set for practicing these analyses. You will need the `readr`, `psych`, `effsize`, and `ggplot2` packages.
 
 ## 🗂️ The Data
 
