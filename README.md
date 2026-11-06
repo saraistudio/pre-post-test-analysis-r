@@ -46,9 +46,23 @@ The DAP items use a 4-point scale: Not at all or rarely (0), Somewhat or sometim
 
 In order to determine whether participants (n = 8) made significant learning gains, this study used a t-test to determine whether differences between the pre- and posttests were significant. Specifically, when using the paired-sample t-test the researcher calculates the mean percentages of responses on the pretest and posttest. A significant difference implies effective curriculum, while a less-than-significant difference indicates that the participants did not experience a significant change in learning, which may be due to a variety of factors. 
 
+The t-test (Step 7) and Cohen's d (Step 8) are in [`analysis.R`](analysis.R). In both, pre is listed first, so an increase in scores appears as a negative t and a negative d. Cohen's d benchmarks (Lakens, 2013): small = 0.2, medium = 0.5, large = 0.8.
 
+## 🔬 Hypotheses
 
-Because pre is listed first, an increase in scores appears as a negative t and a negative d. Cohen's d benchmarks (Lakens, 2013): small = 0.2, medium = 0.5, large = 0.8.
+- **H₀:** There is no difference between mean pre- and posttest DAP scores (mean difference = 0).
+- **H₁:** The mean difference between pre- and posttest DAP scores is not 0 (two-sided test).
+
+## 📊 Analysis & Results
+
+### Descriptive Statistics
+
+| | M | SD |
+|---|---|---|
+| PreDAP | 1.69 | 0.84 |
+| PostDAP | 1.95 | 0.48 |
+
+Posttest scores show less spread than pretest scores.
 
 
 In this dot plot, we can see that the postDAP scores show less variation than preDAP scores. While most participants improved, participants **Y000084** and **Y000043** saw decreases. Notably, a high-scoring outlier in the pre-DAP data (**Y000059**) disappeared in the post-test. ![A dot plot showing pre and postDAP scores](https://github.com/user-attachments/assets/75c63f27-3e0d-489a-b935-cea256356c23)
